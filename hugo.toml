@@ -1,0 +1,30 @@
+baseURL = "https://shanmuga-sundaram-n.github.io/about-me/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "your-theme-name"
+
+[params]
+  author = "Shanmuga Sundaram"
+  description = "A blog about my projects and experiences."
+  github = "https://github.com/shanmuga-sundaram-n"
+  linkedin = "https://www.linkedin.com/in/your-profile/"
+  twitter = "https://twitter.com/your-profile"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params.hugo]
+  min_version = "0.81.0"
