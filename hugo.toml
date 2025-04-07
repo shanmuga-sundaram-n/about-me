@@ -1,7 +1,7 @@
 baseURL = "https://shanmuga-sundaram-n.github.io/about-me/"
 languageCode = "en-us"
 title = "My Blog"
-theme = "your-theme-name"
+theme = "PaperMod"
 
 [params]
   author = "Shanmuga Sundaram"
